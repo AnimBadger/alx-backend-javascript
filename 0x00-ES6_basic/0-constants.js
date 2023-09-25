@@ -3,11 +3,11 @@ export const taskFirst = () => {
   return task;
 };
 
-export function getLast () {
+export function getLast() {
   return ' is okay';
 }
 
-export const taskNext = () => {
+export let taskNext = () => {
   let combination = 'But sometimes let';
   combination += getLast();
 
