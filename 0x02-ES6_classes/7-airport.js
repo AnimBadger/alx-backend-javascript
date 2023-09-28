@@ -1,7 +1,7 @@
 export default class Airport {
-  constructor(name, string) {
+  constructor(name, code) {
     this._name = name;
-    this._string = string;
+    this._code = code;
   }
 
   toString() {
